@@ -57,5 +57,6 @@ def listen():
             listen_thread.join()
             print_thread.join()
 
-listen()
+while True:
+    listen()
 
