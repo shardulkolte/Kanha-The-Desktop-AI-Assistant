@@ -25,8 +25,8 @@ def listen():
     recognizer.dynamic_energy_ratio=1.9
     recognizer.pause_threshold=0.4
     recognizer.operation_timeout=None
-    recognizer.pause_threshold=0.2
-    recognizer.non_speaking_duration=0.1
+    recognizer.pause_threshold=0.4
+    recognizer.non_speaking_duration=0.4
 
     with sr.Microphone() as source:
         recognizer.adjust_for_ambient_noise(source)

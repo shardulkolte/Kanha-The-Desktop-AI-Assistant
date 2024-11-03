@@ -1,5 +1,22 @@
-def print_hi(name):
-    print(f'Hi ',{name})
+from Function.welcome import welcome
+from Head.Mouth import *
+from Head.Ear import *
+from Head.Brain import *
+from Function.wish import wish
+from Function.bye import bye
 
-if __name__=='__main__':
-    print_hi('Pycharm')
+
+
+def kanha():
+    wish()
+    while True:
+        text=listen().lower()
+        if "krishna" in text:
+            welcome()
+        if "bye" in text:
+            bye()
+            break
+        else:
+            brain(text)
+
+kanha()
