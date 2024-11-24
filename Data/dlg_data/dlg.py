@@ -300,8 +300,9 @@ welcomedlg =[
 "Well met, kind sakha! Always appreciated in our discussions.",
 ]
 wake_key_word =[
-"jar",
-"wake up from sleep jar",
+"kan",
+"krishna",
+"wake up from sleep kanha",
 "kanha",
 "wake up kanha" ,
 "wake up from sleep",
@@ -362,6 +363,7 @@ wake_key_word =[
 
         ]
 bye_key_word =[
+"bye"
 "goodbye kanha",
 "good bye",
 "bye kanha",

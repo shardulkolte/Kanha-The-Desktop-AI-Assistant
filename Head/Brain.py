@@ -6,7 +6,6 @@ from wikipedia import summary, DisambiguationError, PageError  # Correct imports
 from Head.Mouth import speak
 from Traning_Model.model import mind
 
-
 def load_qa_data(file_path):
     qa_dict = {}
     with open(file_path, "r", encoding="utf-8", errors="replace") as f:
@@ -33,7 +32,7 @@ def print_animated_message(message):
     for char in message:
         sys.stdout.write(char)
         sys.stdout.flush()
-        time.sleep(0.075)
+        time.sleep(0.05) #0.075 for slower animation
     print()
 
 def wiki_search(prompt):
@@ -53,9 +52,15 @@ def wiki_search(prompt):
         qa_dict[search_prompt] = wiki_summary
         save_qa_data(qa_file_path, qa_dict)
 
+
     except DisambiguationError as e:
-        speak("There is a disambiguation page for the given query. Please provide more specific information.")
-        print("There is a disambiguation page for the given query. Please provide more specific information.")
+        # Handle disambiguation error with suggestions
+        message = "There are multiple results for your query. Please specify further."
+        print_animated_message(message)
+        speak(message)
+        print("\nSuggestions:")
+        for option in e.options[:5]:  # Show top 5 options
+            print(f"- {option}")
     except PageError:
         google_search(prompt)
 
@@ -92,6 +97,5 @@ def brain(text):
     except Exception as e:
         print(f"An error occured: {str(e)}")
         wiki_search(text)
-
 
 

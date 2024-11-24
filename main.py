@@ -1,3 +1,4 @@
+from Data.dlg_data.dlg import wake_key_word, bye_key_word
 from Function.welcome import welcome
 from Head.Mouth import *
 from Head.Ear import *
@@ -11,9 +12,9 @@ def kanha():
     wish()
     while True:
         text=listen().lower()
-        if "krishna" in text:
+        if text in wake_key_word:
             welcome()
-        if "bye" in text:
+        if text in bye_key_word:
             bye()
             break
         else:
