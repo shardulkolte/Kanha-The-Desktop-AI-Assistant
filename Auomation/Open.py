@@ -43,9 +43,9 @@ def openweb(webname):
         webbrowser.open(url)
         randomsuccess = random.choice(success_open)
         speak(randomsuccess)
-    if urls_to_open:
-        speak(x + "" + webname)
-        print(x + "" + webname)
+    # if urls_to_open:
+    #     speak(x + "" + webname)
+    #     print(x + "" + webname)
 
 # # Convert the input to lowercase for case-insensitive matching
 #     website_name_lower = text.lower()
