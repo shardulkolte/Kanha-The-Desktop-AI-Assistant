@@ -67,7 +67,8 @@ def mind(text):
     answer = get_answer(user_question, vectorizer, X, dataset, threshold=0.2)
     return answer
 
-#
+
 # while True:
 #     x=input(listen())
 #     mind(x)
+

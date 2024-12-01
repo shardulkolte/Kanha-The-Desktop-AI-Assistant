@@ -363,7 +363,8 @@ wake_key_word =[
 
         ]
 bye_key_word =[
-"bye"
+"bye",
+"bye-bye",
 "goodbye kanha",
 "good bye",
 "bye kanha",

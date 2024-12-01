@@ -11,6 +11,8 @@ import pygame
 # VOICE= "en-IE-ConnorNeural" #Irish English, male
 VOICE= "en-IN-PrabhatNeural" #Indian English, male
 BUFFER_SIZE=1024
+
+
 def remove_file(file_path):
     max_attempts=3
     attempts=0
@@ -54,6 +56,9 @@ def speak(TEXT,output_file=None):
     if output_file is None:
         output_file=f"{os.getcwd()}/speak.mp3"
     asyncio.run(amain(TEXT, output_file))
+
+
+
 
 
 
