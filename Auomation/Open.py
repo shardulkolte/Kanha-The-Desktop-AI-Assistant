@@ -26,56 +26,55 @@ def openweb(webname):
     webname = webname.replace("open", "")
     webname = webname.strip()
     x = random.choice(open_dld)
-    website_name = webname.lower().split()
-    counts = {}
-    for name in website_name:
-        counts[name] = counts.get(name,0) + 1
-    urls_to_open = []
-    for name,count in counts.items():
-        if name in websites:
-            urls_to_open.extend([websites[name]]*count)
-
-        else:
-            randonsorry = random.choice(sorry_open)
-            speak(randonsorry +" named " + webname)
-
-    for url in urls_to_open:
-        webbrowser.open(url)
-        randomsuccess = random.choice(success_open)
-        speak(randomsuccess)
+    # website_name = webname.lower().split()
+    # counts = {}
+    # for name in website_name:
+    #     counts[name] = counts.get(name,0) + 1
+    # urls_to_open = []
+    # for name,count in counts.items():
+    #     if name in websites:
+    #         urls_to_open.extend([websites[name]]*count)
+    #
+    #     else:
+    #         randonsorry = random.choice(sorry_open)
+    #         speak(randonsorry +" named " + webname)
+    #
+    # for url in urls_to_open:
+    #     webbrowser.open(url)
+    #     randomsuccess = random.choice(success_open)
+    #     speak(randomsuccess)
     # if urls_to_open:
     #     speak(x + "" + webname)
     #     print(x + "" + webname)
 
-# # Convert the input to lowercase for case-insensitive matching
-#     website_name_lower = text.lower()
-#
-#     # Check if the exact website name exists in the dictionary
-#     if website_name_lower in websites:
-#         random_dlg = random.choice(open_dld)
-#         speak(random_dlg + text)
-#         url = websites[website_name_lower]
-#         webbrowser.open(url)
-#         randonsuccess = random.choice(success_open)
-#         speak(randonsuccess)
-#     else:
-#         # Find the closest matching website using string similarity
-#         matches = difflib.get_close_matches(website_name_lower, websites.keys(), n=1, cutoff=0.6)
-#         if matches:
-#             random_dlg = random.choice(open_dld)
-#             randonopen2 = random.choice(open_maybe)
-#             closest_match = matches[0]
-#             speak(randonopen2 + random_dlg + text)
-#             url = websites[closest_match]
-#             webbrowser.open(url)
-#             randonsuccess = random.choice(success_open)
-#             speak(randonsuccess)
-#         else:
-#             randonsorry = random.choice(sorry_open)
-#             speak(randonsorry +" named " + text)
+# Convert the input to lowercase for case-insensitive matching
+    website_name_lower = webname.lower()
 
-# openweb("open zee5")
-# appopen("open notepad ")
+    # Check if the exact website name exists in the dictionary
+    if website_name_lower in websites:
+        random_dlg = random.choice(open_dld)
+        speak(random_dlg + webname)
+        url = websites[website_name_lower]
+        webbrowser.open(url)
+        randonsuccess = random.choice(success_open)
+        speak(randonsuccess)
+    else:
+        # Find the closest matching website using string similarity
+        matches = difflib.get_close_matches(website_name_lower, websites.keys(), n=1, cutoff=0.6)
+        if matches:
+            random_dlg = random.choice(open_dld)
+            randonopen2 = random.choice(open_maybe)
+            closest_match = matches[0]
+            speak(randonopen2 + random_dlg + webname)
+            url = websites[closest_match]
+            webbrowser.open(url)
+            randonsuccess = random.choice(success_open)
+            speak(randonsuccess)
+        else:
+            randonsorry = random.choice(sorry_open)
+            speak(randonsorry +" named " + webname)
+
+
 def open(text):
     if "website" in text or "site" in text:
         text = text.replace("open", "")

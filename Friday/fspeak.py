@@ -255,7 +255,7 @@ def speakbasic(text):
         engine = pyttsx3.init()
         engine.setProperty('rate', rate)
         voices = engine.getProperty('voices')
-        engine.setProperty('voice', voices[15].id)
+        engine.setProperty('voice', voices[1].id)
 
         blob = TextBlob(text)
         sentiment = blob.sentiment.polarity
@@ -280,11 +280,10 @@ def fspeak(text):
     speak_thread.start()
 
     # Thread for printing with animation
-    print_thread = threading.Thread(target=print_animated_message, args=(f"KANHA: {text}",))
+    print_thread = threading.Thread(target=print_animated_message, args=(f"Radha: {text}",))
     print_thread.start()
 
     # Wait for both threads to finish
     speak_thread.join()
     print_thread.join()
 
-fspeak("Radhe Radhe. Aapka kanha ki duniya me swagat hai.")

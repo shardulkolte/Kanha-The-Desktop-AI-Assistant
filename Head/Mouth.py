@@ -3,6 +3,7 @@ import threading
 import os
 import edge_tts
 import pygame
+from colorama import init, Fore,Style
 
 # VOICE= "en-AU-WilliamNeural"
 # VOICE= "en-US-AriaNeural" #American English, female

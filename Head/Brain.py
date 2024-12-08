@@ -2,6 +2,8 @@ import sys
 import threading
 import time
 import webbrowser
+
+from colorama import Fore
 from wikipedia import summary, DisambiguationError, PageError  # Correct imports
 from Head.Mouth import speak
 from Traning_Model.model import mind
@@ -30,7 +32,8 @@ def save_qa_data(file_path, qa_dict):
 
 def print_animated_message(message):
     for char in message:
-        sys.stdout.write(char)
+        color = Fore.YELLOW
+        sys.stdout.write(color+char)
         sys.stdout.flush()
         time.sleep(0.05) #0.075 for slower animation
     print()
