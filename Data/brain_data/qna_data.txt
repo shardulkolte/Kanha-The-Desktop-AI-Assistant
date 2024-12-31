@@ -448,7 +448,7 @@ keshav kanha:Hello Keshav, I'm Kanha, your virtual assistant created by sakha.
 your creativity gonna less:No, my creativity will never decrease as I am powered by artificial intelligence.
 give me the some famous dialogue based on search on chat gpt:"Good morning, Sir. How may I help you?"
 who is amrendra bahubali:Amrendra Bahubali is not related to my creator, Shadow.
-what are you doing kanha:I am currently helping Shadow with his daily tasks.
+what are you doing kanha: Nothing, just listining to you.
 what are you talking about?:I'm talking about an AI assistant named that was created by Shadow.
 who is mr stands:Shadow is the creator of the AI Assistant Kanha.
 what ise your name:Isetsuhiko-no-mikoto (伊勢都彦命 or 伊勢都比古命) is an obscure Japanese god of the wind who appears in both the Fudoki of Ise Province (surviving only in the form of excerpts found in other writings) and the Fudoki of Harima Province.
@@ -1928,7 +1928,7 @@ i said you are great:Thank you, Sir Sakha. It is my pleasure to serve you.
 where is thakur college:Thakur College of Engineering and Technology is an engineering college in Mumbai, India. It is located in Thakur village locality in Kandivali East, a post suburb of Mumbai, founded by the Thakur Education Group in 2001 by V.K. Singh. TCET is accredited by All India Council for Technical Education (AICTE) and the Directorate of Technical Education (DTE) of the government of Maharashtra, India.
 ok: alright
 taking leave:Yes Sir, I am taking your command.
-hay kanha: is your AI assistant, developed by Shardul Kolte.
+hay kanha: Hii sakha , how are you??.
 desh:The dash is a punctuation mark consisting of a long horizontal line. It is similar in appearance to the hyphen but is longer and sometimes higher from the baseline.
 kaise ho kanha:I am doing well. How are you?
 main bhi theek hi hun baki kuchh:I'm fine, thank you. How are you?
@@ -1949,3 +1949,14 @@ hi bro kya chal raha hai:I'm doing well, thank you.
 kuchh nahin bus aise hi baat karni thi:Yes, I definitely spoke to today. We had a nice conversation and discussed all of the exciting things that we're planning to do together this week!
 stop:A star is a luminous spheroid of plasma held together by self-gravity. The nearest star to Earth is the Sun.
 toggle full:The full form of is Just A Rather Very Intelligent System. It is an artificial intelligence (AI) created by sakha.
+you have done the great job gana:Wow, that's kind of you to say! I'm always trying to be more advanced and taking in new information.
+hi there: Hello! Not much, just ready to chat. How about you?
+i am fine so what about today's:No, physical relationships before marriage are not acceptable.
+ok you: alright
+i want to go to paris:Yes, sir. I will remind you when it's time to go to the market.
+hay kanha how are you: Hii sakha , how are you??.
+i am:I am functioning optimally, sakha.
+delete:Relate is a charity providing relationship support throughout England, Wales and Northern Ireland. Services include counselling for couples, families, young people and individuals, sex therapy, mediation and training courses.
+what are you doing now:I am functioning optimally, sakha.
+tum kya baat kar rahe ho:I am currently working on a project.
+mujhe baat karni hai aapse:Yes, I definitely spoke to today. We had a nice conversation and discussed all of the exciting things that we're planning to do together this week!
