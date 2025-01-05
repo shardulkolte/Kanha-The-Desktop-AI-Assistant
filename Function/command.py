@@ -10,6 +10,8 @@ from Traning_Model.model import mind
 from Auomation.Open import open
 from Auomation.Close import close
 import pyautogui as gui
+from Traning_Model.model2 import get_response
+
 
 def cmd():
     wish()
@@ -21,6 +23,12 @@ def cmd():
         if text in bye_key_word:
             bye()
             break
+        elif text.startswith(("kanha","kana")):
+            text = text.replace("kanha", "")
+            text = text.replace("kana", "")
+            text = text.strip()
+            response = get_response(text)
+            speak(response)
         elif text.startswith(("open","kholo","show me")):
             text = text.replace("kholo", "")
             text = text.replace("show me", "")
@@ -387,7 +395,6 @@ def cmd():
                 gui.hotkey("shift", "delete")  # Permanent delete
                 gui.press("enter")  # Confirm deletion
                 speak("File deleted successfully.")
-
 
         else:
             brain(text)

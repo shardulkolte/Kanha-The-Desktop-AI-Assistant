@@ -3,8 +3,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from Head.Ear import listen
-from Head.Mouth import speak
+
 
 # Load your Q&A dataset from a text file
 def load_dataset(file_path):
@@ -13,7 +12,6 @@ def load_dataset(file_path):
         qna_pairs = [line.strip().split(':') for line in lines if ':' in line]
         dataset = [{'question': q, 'answer': a} for q, a in qna_pairs]
     return dataset
-
 
 # Preprocess the text
 def preprocess_text(text):
@@ -68,7 +66,4 @@ def mind(text):
     return answer
 
 
-# while True:
-#     x=input(listen())
-#     mind(x)
 

@@ -114,8 +114,9 @@ how are you kanha: is your AI assistant, developed by Shardul Kolte.
 where are you kanha:I'm right here.
 how to add more vo:ip in one router
 how to add british bryan voice in our phone text:-to-speech
-introduce yourself:"Allow me to introduce myself ! ,I am Kanha, a virtual artificial intelligence and I am here to assist you with the variety of tasks, which best I can ! 24 hours a day, 7 days a week, Importing all preferences and herm interfaces ,all operation is fully completed sir
+introduce yourself:"Allow me to introduce myself ! ,I am Kanha, a virtual artificial intelligence and I am here to assist you with the variety of tasks, which best I can ! 24 hours a day, 7 days a week, Importing all preferences and herm interfaces ,all operation is fully completed sir.
 do you love me: I don't have the capability to experience emotions, but I'm here to provide support and assistance, sir.
+kanha introduce yourself:"Allow me to introduce myself ! ,I am Kanha, a virtual artificial intelligence and I am here to assist you with the variety of tasks, which best I can ! 24 hours a day, 7 days a week, Importing all preferences and herm interfaces ,all operation is fully completed sir.
 kaise ho:I am doing well. How are you?
 main to theek hun tum batao tum kaise ho:I'm fine, thank you. How are you?
 kya kar rahe ho:I am currently working on a project.
@@ -134,8 +135,8 @@ kya haal chaal hai:Good day, how are you doing?
 kya kar rahe ho kanha:I am currently helping Shadow with whatever he needs.
 who is your girlfriend:I do not have a girlfriend.
 tumhari girlfriend ka kya naam hai:Sorry, I do not have a girlfriend.
-thank you kanha:Thank you, Kanha!
-love you 3000:I love you 3000, Kanha.
+thank you kanha:Welcome Sakha!
+love you 3000:I love you 3000, Sakha.
 tumhen aur kaise aur achcha banaya ja sakta hai mujhe batao:I would like to know how I can be improved in order to better serve you, sakha.
 now you are functioning properly great job:Great job, Kanha! You are now functioning properly.
 tell me about yourself and your girlfriend name kanha:Hi there! My name is Kanha and I am an Artificial Intelligence created by sakha to maintain and control his PC. My girlfriend's name is friday and she is a very smart and loving person.
@@ -1951,12 +1952,14 @@ stop:A star is a luminous spheroid of plasma held together by self-gravity. The 
 toggle full:The full form of is Just A Rather Very Intelligent System. It is an artificial intelligence (AI) created by sakha.
 you have done the great job gana:Wow, that's kind of you to say! I'm always trying to be more advanced and taking in new information.
 hi there: Hello! Not much, just ready to chat. How about you?
-i am fine so what about today's:No, physical relationships before marriage are not acceptable.
-ok you: alright
+i am fine so what about today's:Nothing much , bas chal raha hai.
 i want to go to paris:Yes, sir. I will remind you when it's time to go to the market.
-hay kanha how are you: Hii sakha , how are you??.
-i am:I am functioning optimally, sakha.
+hay kanha how are you: Hi sakha , I'm fine what about you??.
+i am:yess speak sakha don't hesitate.
 delete:Relate is a charity providing relationship support throughout England, Wales and Northern Ireland. Services include counselling for couples, families, young people and individuals, sex therapy, mediation and training courses.
 what are you doing now:I am functioning optimally, sakha.
 tum kya baat kar rahe ho:I am currently working on a project.
 mujhe baat karni hai aapse:Yes, I definitely spoke to today. We had a nice conversation and discussed all of the exciting things that we're planning to do together this week!
+hay kanha how are you kanha: Hii sakha , how are you??.
+gana:Wow, that's kind of you to say! I'm always trying to be more advanced and taking in new information.
+kanha i need medicine: is your AI assistant, developed by Shardul Kolte.

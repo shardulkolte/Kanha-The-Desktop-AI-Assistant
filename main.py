@@ -16,6 +16,5 @@ def check_kanha():
         x=random.choice(ofline_dlg)
         fspeak(x)
 
-
 check_kanha()
 
