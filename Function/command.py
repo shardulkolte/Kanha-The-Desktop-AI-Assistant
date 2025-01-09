@@ -23,9 +23,17 @@ def cmd():
         if text in bye_key_word:
             bye()
             break
-        elif text.startswith(("kanha","kana")):
+        elif text.startswith(("kanha","kana","gana")):
             text = text.replace("kanha", "")
             text = text.replace("kana", "")
+            text = text.replace("gana", "")
+            text = text.strip()
+            response = get_response(text)
+            speak(response)
+        elif text.endswith(("kanha","kana","gana")):
+            text = text.replace("kanha", "")
+            text = text.replace("kana", "")
+            text = text.replace("gana", "")
             text = text.strip()
             response = get_response(text)
             speak(response)
@@ -272,10 +280,10 @@ def cmd():
         #scrolling
         elif "scroll up" in text or "upar scroll karo" in text:
             speak("Scrolling up...")
-            gui.press('up', presses=7)
+            gui.press('up', presses=10)
         elif "scroll down" in text or "neeche scroll karo" in text:
             speak("Scrolling down...")
-            gui.press('down', presses=7)
+            gui.press('down', presses=10)
         elif "scroll to top" in text or "shuruat par jao" in text or "scroll top" in text:
             speak("Scrolling to top...")
             gui.hotkey('home')

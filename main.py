@@ -5,7 +5,6 @@ from Function.check_online_ofline import realtime_online_checker
 from Function.command import cmd
 
 
-
 def check_kanha():
     text=realtime_online_checker()
     if "System status: ONLINE" in text:
