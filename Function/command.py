@@ -23,10 +23,11 @@ def cmd():
         if text in bye_key_word:
             bye()
             break
-        elif text.startswith(("kanha","kana","gana")):
+        elif text.startswith(("kanha","kana","gana","can i")):
             text = text.replace("kanha", "")
             text = text.replace("kana", "")
             text = text.replace("gana", "")
+            text = text.replace("can i", "")
             text = text.strip()
             response = get_response(text)
             speak(response)
